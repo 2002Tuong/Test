@@ -8,7 +8,7 @@ using namespace std;
 
 struct TrieNode {
 	int ID;
-	TrieNode* next[26];
+	TrieNode* next[26]={NULL};
 };
 
 void Insert(TrieNode*& Dic, string word, int ID, int index);
